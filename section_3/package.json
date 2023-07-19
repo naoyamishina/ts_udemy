@@ -1,0 +1,19 @@
+{
+  "name": "section_1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/lodash": "^4.14.195",
+    "lodash": "^4.17.21",
+    "typescript": "^5.1.6"
+  }
+}
