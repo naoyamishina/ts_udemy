@@ -7,11 +7,13 @@ const count2: Ref<number> = ref(0)
 </script>
 
 <template>
-  <h2>
+  <div>
+    <h2>
     Ref
-  </h2>
-  {{count1}}<br>
-  {{count2}}<br>
-  <button @click="count1++">クリック1</button>
-  <button @click="count2++">クリック2</button>
+    </h2>
+    {{count1}}<br>
+    {{count2}}<br>
+    <button @click="count1++">クリック1</button>
+    <button @click="count2++">クリック2</button>
+  </div>
 </template>
