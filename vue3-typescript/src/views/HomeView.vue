@@ -1,9 +1,9 @@
 <script setup lang="ts">
-import TheWelcome from '../components/TheWelcome.vue'
+import RefComponent from '@/components/RefComponent.vue';
 </script>
 
 <template>
   <main>
-    <TheWelcome />
+    <RefComponent />
   </main>
 </template>
